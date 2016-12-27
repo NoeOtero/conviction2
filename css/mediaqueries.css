@@ -1,0 +1,89 @@
+/*index page responsive queries*/
+@media (max-width: 1150px) {
+	.logoBorder {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+}
+@media (max-width: 990px) {
+	.logoBorder {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+}
+@media (max-width: 900px) {
+	.logoBorder {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
+@media (max-width: 850px) {
+	.logoBorder {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+@media (max-width: 600px) {
+	.logo img {
+		width: 50%;
+		height: 50%;
+	}
+	.logo h1 {
+		font-size: 20px;
+	}
+	.nav ul li a {
+		font-size: 15px;
+	}
+	.apparel h1 {
+		font-size: 20px;
+	}
+	#apparelNav ul li a {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 900px) {
+	.shirts img {
+		width: 70%;
+		height: 70%;
+	}
+@media (max-width: 700px) {
+	.shirts img {
+		width: 50%;
+		height: 50%;
+	}
+	.shirt1, .shirt2, .shirt3, .shirt4, .shirt5,
+	.shirt6, .shirt7, .shirt8 {
+		padding-bottom: 30px;
+		padding-right: 0px;
+	}
+}
+@media (max-width: 500px) {
+	.shirt1, .shirt2, .shirt3, .shirt4, .shirt5,.shirt6,
+	.shirt7, .shirt8, .product1, .product2, .product3, .product4, 
+	.product5, .product6, .product7, .product8, .product9,
+	.product10, .product11, .product12 {
+		width: 45%;
+		height: 45%;
+	}
+}
+@media (max-width: 500px) {
+	.shirts button{
+		font-size: 10px;
+	}
+	.shirts h3 {
+		font-size: 17px;
+	}
+}
+@media (max-width: 500px) {
+	.payment {
+		text-align: center;
+	}
+	.payment button {
+		width: 110px;
+	}
+	.payment img{
+		width: 100%;
+		height: 100%;
+	}
+}
